@@ -16,6 +16,9 @@
     position: relative;
     top: 200px
 }
+img{
+    mix-blend-mode: multiply;
+}
 #hero img{
     mix-blend-mode: multiply;
     width: 100%;
