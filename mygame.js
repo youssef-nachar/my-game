@@ -13,7 +13,7 @@ var checkStatus = setInterval(function(){
     if(obstacleLeft<30 && obstacleLeft>0 && heroTop>=200 ){
         // obstacle.style.animation="none";
         // obstacle.style.display="none";
-         alert("you lose");
+          document.write("you lose");
     }
 },10);
 
