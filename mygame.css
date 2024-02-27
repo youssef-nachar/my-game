@@ -227,7 +227,7 @@ body{
     background-color: #fff;
     height:500px;
     width: 700px;
-     display: flex;
+    display: flex;
     justify-content:center;
     align-content: center; 
     position: absolute;
@@ -246,22 +246,42 @@ h1{
     color: white;
     background:linear-gradient(black,rgb(83, 83, 83),rgb(197, 197, 197));
     position: absolute;
+    left:50%;
+    transform: translate(-50%);
     bottom: 200px;
     cursor: pointer;
 }
 #play:hover{
-    transform: scale(0.7)
+    transform:translate(-50%) scale(0.7);
 
 }
 #play:active{
-    transform: scale(0.8)
+    transform:translate(-50%) scale(0.8);
 
 }
+#lose_container{
+    width: 600px;
+    height:400px;
+    background-color:black;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    z-index:10000;
+}
+#lose_container #continue{
+    width:150px;
+    margin-left: 20px;
+    background-color: #fff;
+    color:black;
+    font-size:20px;
+}
 @media (max-width:1000px){
-    .game{
-        width: 400px
-    }
-  *{
+    *{
         padding:0;
     }
     
