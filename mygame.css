@@ -295,8 +295,7 @@ h1{
         width: 100px;
         padding: 10px;
         bottom:70px;
-        left: 50%;
-        transform: translate(-50%)
+       
     }
     h1{
         text-align: center
