@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,7 +14,7 @@
          ">click to jump</button>
 
     <div id="game">
-        <p id="counter">0</p>;
+        <p id="counter">Score:0</p>;
         <div id="hero">
             <img src="https://www.freeiconspng.com/uploads/penguin-png-5.png">
         </div>
@@ -23,7 +23,8 @@
                 src="https://static.vecteezy.com/system/resources/previews/024/500/673/original/cactus-tree-on-transparent-background-ai-generative-free-png.png">
         </div>
     </div>
-            <div id="you_win">you win <button onclick="continu()" id="continue" >continue</button> </div>
+            <div id="you_win"><p id="text"> you win</p><button onclick="continu()" id="continue" >continue</button> </div>
+            <div id="lose_container">you are a lose <button  onclick="retry()" id="continue">retry</button></div>
     <div class="area">
         <ul class="circles">
             <li></li>
