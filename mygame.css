@@ -287,7 +287,7 @@ h1{
     }
     
     #retry{
-        margin-left:auto;
+        margin-left:-100px;
         margin-top:auto;  
         width: 300px;
         height: 400px;
