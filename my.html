@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,37 @@
     <link rel="stylesheet" href="./mygame.css">
     <title>My game</title>
 </head>
+
 <body>
-        <!-- <div id="retry">
-                <h1>hahahahahayyy you are a loser</h1>
-                <button>reply</button>
-            </div> -->
-    <div class="game">
+    <button onclick="jump()" style="position:absolute;top:500px;z-index: 10;padding: 10px;width: 150px;border-radius: 20px;background-color:red;color: white;cursor: pointer
+         ">click to jump</button>
+
+    <div id="game">
+        <p id="counter">0</p>;
         <div id="hero">
             <img src="https://www.freeiconspng.com/uploads/penguin-png-5.png">
         </div>
         <div id="obstacle">
-            <img class="cacus" src="https://static.vecteezy.com/system/resources/previews/024/500/673/original/cactus-tree-on-transparent-background-ai-generative-free-png.png">
+            <img class="cacus"
+                src="https://static.vecteezy.com/system/resources/previews/024/500/673/original/cactus-tree-on-transparent-background-ai-generative-free-png.png">
         </div>
     </div>
-   
-
-    <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
+            <div id="you_win">you win <button onclick="continu()" id="continue" >continue</button> </div>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
     <script src="./mygame.js"></script>
 </body>
+
 </html>
