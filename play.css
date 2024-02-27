@@ -21,7 +21,6 @@
     align-content: center; 
     position: absolute;
     border-radius: 30px;
-    left: 50px
 } 
 h1{
     position: absolute;
@@ -42,8 +41,8 @@ h1{
     
     #retry{
         background-color:black;
-        margin-left:auto;
-        margin-top:auto;  
+        margin-left:20px;
+        margin-top:0px;  
         width: 300px;
         height: 400px;
     }
